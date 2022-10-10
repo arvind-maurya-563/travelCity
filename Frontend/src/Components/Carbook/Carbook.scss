@@ -1,0 +1,18 @@
+@import "../../globlal.scss";
+
+.BarcodeSection{
+    //  background-color: yellow;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding: 8px 80px;
+
+     p{
+        padding: 0px 90px;
+        font-size: small;
+     }
+
+     @include mobile{
+        display: none;
+     }
+}
