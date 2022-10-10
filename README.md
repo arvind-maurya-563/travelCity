@@ -8,9 +8,7 @@
 >Blog link : -
 
 ## Team Members
-> ## Github :- •[Akram Ali](https://github.com/akram3598786)
->
-> ## Github :- •[Mohit Sharma](https://github.com/mohitsharma9001)
+> ## Github :- •[Arvind Maurya](https://github.com/MB7232SP)
 >
 > ## Github :-•[Vishal Karale](https://github.com/vishalvsk)
 
