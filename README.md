@@ -63,13 +63,13 @@
 
 <img src="./public/images/Homepage.PNG" />
 <img src="https://i.ibb.co/cYj9ngp/Screenshot-from-2022-06-30-11-32-25.png" />
-<img src="./public/images/Homepage-2.PNG" />
+<img src="./Frontend/public/images/Homepage-2.PNG" />
 <img src="https://i.ibb.co/MMVbn9k/Screenshot-from-2022-06-30-11-18-39.png" />
 
 ## Sign In page
 
-<img src="./public/images/sign in page.png" />
-<img src="./public/images/googlepage.png" />
+<img src="./Frontend/public/images/sign in page.png" />
+<img src="./Frontend/public/images/googlepage.png" />
 
 ## Hotel booking page
 <img src="./Frontend/public/images/hotelpage.png" />
@@ -79,13 +79,13 @@
 
 
 ## Car booking page
-<img src="./public/images/carpage.png" />
+<img src="./Frontend/public/images/carpage.png" />
 
 ## Car detail page
-<img src="./public/images/cardetail.PNG" />
+<img src="./Frontend/public/images/cardetail.PNG" />
 
 ## Payment page
-<img src="./public/images/payment.PNG" />
+<img src="./Frontend/public/images/payment.PNG" />
 
 
 ### Thanks for Reading.
