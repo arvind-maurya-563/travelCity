@@ -72,7 +72,7 @@
 <img src="./public/images/googlepage.png" />
 
 ## Hotel booking page
-<img src="./public/images/hotelpage.png" />
+<img src="./Frontend/public/images/hotelpage.png" />
 
 ## Hotel detail page
 <img src="https://i.ibb.co/QYw37RH/Screenshot-from-2022-06-30-11-35-03.png" />
