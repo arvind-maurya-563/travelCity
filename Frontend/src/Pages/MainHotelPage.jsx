@@ -12,7 +12,7 @@ const MainHotelPage = () => {
     const [hotelData,Sethotaldata] = useState({});
    const Getdata = ()=>{
      setIsLoading(true)
-    axios.get(`https://travelcity-car-hotal.herokuapp.com/hotals/${id}`)
+    axios.get(`https://travelcityproject563.onrender.com/hotals/${id}`)
     .then((res)=>{
         Sethotaldata(res.data);
     })

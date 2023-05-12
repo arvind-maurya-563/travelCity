@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from '@emotion/styled'
+import styled from 'styled-components'
 import { useNavigate, useParams } from 'react-router-dom';
 import "./Reserv.scss";
 import DoorSlidingIcon from '@mui/icons-material/DoorSliding';
@@ -137,7 +137,7 @@ export const Reserv = () => {
     }, [])
     const getData = () => {
         setLoding(true)
-        fetch(`https://travelcity-car-hotal.herokuapp.com/car/${id}`)
+        fetch(`https://travelcityproject563.onrender.com/car/${id}`)
             .then((res) => res.json())
             .then((res) => setCarData(res))
             .catch((err) => setError(true))

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FormGroup, FormControlLabel, Checkbox } from "@mui/material"
-import styled from '@emotion/styled'
+import styled from 'styled-components'
 
 
 const Form = styled(FormControlLabel)`

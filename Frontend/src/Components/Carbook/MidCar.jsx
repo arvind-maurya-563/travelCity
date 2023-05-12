@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from '@emotion/styled'
+import styled from 'styled-components'
 import {Link} from 'react-router-dom';
 import axios from 'axios'
 import {
@@ -152,7 +152,7 @@ const [page,setPage] = React.useState(1)
     }, [page])
     const getData = () => {
         setLoding(true)
-        fetch(`https://travelcity-car-hotal.herokuapp.com/cars?page=${page}`)
+        fetch(`https://travelcityproject563.onrender.com/cars?page=${page}`)
             .then((res) => res.json())
             .then((res) => {
                 setCarData(res.data)
@@ -170,13 +170,13 @@ const [page,setPage] = React.useState(1)
     const handleChange = (e) => {
         let value = e.target.value;
         if(value==="LtoH") {
-            axios.get(`https://travelcity-car-hotal.herokuapp.com/cars/LtoHByPrice?page=${page}`)
+            axios.get(`https://travelcityproject563.onrender.com/cars/LtoHByPrice?page=${page}`)
             .then((res)=>{
                 setCarData(res.data.data)
                 Setcarlength((res.data.totalcars)===res.data.data.length)
             })
         }else if(value==="Htol") {
-            axios.get(`https://travelcity-car-hotal.herokuapp.com/cars/HtoLByPrice?page=${page}`)
+            axios.get(`https://travelcityproject563.onrender.com/cars/HtoLByPrice?page=${page}`)
             .then((res)=>{
                 setCarData(res.data.data)
                 Setcarlength((res.data.totalcars)===res.data.data.length)

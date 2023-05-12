@@ -166,7 +166,7 @@ export const HotelList = () => {
     obj.Max = Max
    }
    setloading(true)
-   fetch('https://travelcity-car-hotal.herokuapp.com/hotalByrating',{
+   fetch('https://travelcityproject563.onrender.com/hotalByrating',{
         method:"POST",
         body:JSON.stringify(obj),
         headers:{"content-type":"application/json"}
@@ -190,7 +190,7 @@ export const HotelList = () => {
           Min:Stardata.Min,
           Max:Stardata.Max
         }
-        fetch('https://travelcity-car-hotal.herokuapp.com/hotal/GetHotalByprice',{
+        fetch('https://travelcityproject563.onrender.com/hotal/GetHotalByprice',{
         method:"POST",
         body:JSON.stringify(obj),
         headers:{"content-type":"application/json"}
@@ -221,7 +221,7 @@ export const HotelList = () => {
     setloading(true);
     axios
       // .get("https://my-api-data.herokuapp.com/data")
-      .get("https://travelcity-car-hotal.herokuapp.com/hotals")
+      .get("https://travelcityproject563.onrender.com/hotals")
       .then((res) => {
         const { data } = res;
         // setData(data);
